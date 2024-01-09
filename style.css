@@ -1,0 +1,315 @@
+.hero-section {
+    background:linear-gradient(#070211, #07021100), url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    background-size: cover;
+    border-radius: 16px;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    font-family: Merriweather ;
+}
+
+.hero-img {
+    background:linear-gradient(#070211, #07021100), url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    background-size: contain;
+    border-radius: 16px;
+    display: flex;
+    padding: 0 8px;
+    justify-content:center;
+    align-items: center;
+}
+
+.container {
+    margin: 50px 50px 80px 50px;
+}
+
+.newyearmsg {
+    color: white;
+    font-size: 32px;
+    font-family: Merriweather;
+    font-weight: 400;
+}
+
+.commonh3 {
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.section2 {
+    margin: 100px 230px;
+    text-align: center;
+
+}
+
+.section2>h3 {
+    color: #FF0000;
+    font-size: 88px;
+    font-family: Merriweather;
+    font-weight: 700;
+    margin: 0;
+}
+
+.redmsg {
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Merriweather;
+    font-weight: 500;
+}
+
+.all-catagories {
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 700;
+}
+
+.common {
+    color: white;
+    font-size: 55px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 88px;
+    margin: 0;
+}
+
+.smallmsg {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-family: Merriweather;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.join-btn {
+    color: white;
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.msgbg {
+    background: linear-gradient(#e5a2a2b9, #FF000000);
+    height: 482px;
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-date-msg {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.time-date-msg span {
+    color: hsl(0, 100%, 50%);
+    font-size: 32px;
+    font-family:  Merriweather;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+}
+
+.time-date-msg p {
+    color: #070211;
+    font-size: 32px;
+    font-family: Merriweather;
+    font-weight: 600;
+    margin: 0;
+}
+.time-date-msg button{
+    color: white;
+font-size: 20px;
+font-family: Inter;
+font-weight: 700;
+padding: 16px 35px;
+border: none;
+border-radius: 8px;
+margin: 25px 0;
+background-color: rgba(255, 0, 0, 1);
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.samh3{
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    margin: 0;
+}
+.s1msg{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-family:Merriweather;
+font-weight: 400;
+line-height: 32px;
+}
+.redborder{
+    border: 15px solid #FF0000;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 0 120px;
+}
+.s3 h4{
+    color: #FF0000;
+font-size: 48px;
+font-weight: 700;
+}
+.section4{
+    text-align: center;
+}
+.section4 span{
+    color: #FF0000;
+font-size: 72px;
+font-family: Merriweather;
+font-weight: 900;
+}
+.section4 h3{
+    color: #070211;
+font-size: 72px;
+margin: 0;
+font-family: Merriweather;
+font-weight: 900;
+}
+.section4 .s4p1{
+    color: #070211;
+font-size: 24px;
+font-family: Inter;
+font-weight: 500;
+}
+.s4img{
+    background-image: url(resources/Rectangle\ 1.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+position: relative;
+    width: 100%;
+    height: 560px;
+    padding: 0;
+}
+
+.section4 .bnr{
+    margin-top: 400px;
+   width: 100%;
+}
+.of50{
+    position: absolute;
+    top: 61px;
+    right: 280px;
+   
+}
+.gift{
+    position: absolute;
+    bottom: -15px;
+    left: -80px;
+    height: 100%;
+    filter: black(0%);
+
+}
+.section5{
+    margin: 200px 50px 100px 50px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+
+}
+.lastcont{
+    text-align: center;
+    background-color: #FF00000D;
+    border-radius: 16px;
+    padding: 50px;
+}
+.lastcont img{
+ margin-top: 80px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 50px 0 0 50px;
+    margin-bottom: 80px;
+}
+button{
+    border: none;
+    padding: 18px 40px;
+    border-radius:0 50px 50px 0 ;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+.footerflex p{
+    font-size: 18px;
+font-weight: 500;
+line-height: 40px;
+}
+footer{
+    background-color: #070211;
+    padding: 20px 40px;
+    margin: 0;
+}
+.ftflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.ftflex img{
+    margin-inline: 15px;
+    transform: 1s;
+   
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.185);
+}
+.flex img{
+    height: 100%;
+    width: 300px;
+    margin-inline: 12px;
+    margin-top: 9px;
+    transition: 0.3s ;
+}
+.flex img:hover{
+    border-radius: 13px;
+    transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgb(83, 90, 137);
+    
+}
