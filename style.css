@@ -1,11 +1,9 @@
 .hero-section {
     background:linear-gradient(#070211, #07021100), url(resources/Banner\ Image.png);
     background-repeat: no-repeat;
-    margin: 50px 0;
-    background-size: cover;
     border-radius: 16px;
     background-position: center;
-    height: 600px;
+    height: 550px;
     text-align: center;
     background-size: contain;
     display: flex;
@@ -40,6 +38,7 @@ body{
     font-size: 32px;
     font-family: Merriweather;
     font-weight: 400;
+    margin: 0;
 }
 
 .commonh3 {
@@ -48,6 +47,7 @@ body{
     font-family: Merriweather;
     font-weight: 900;
     line-height: 95px;
+    margin: 13px 0;
 }
 
 .section2 {
